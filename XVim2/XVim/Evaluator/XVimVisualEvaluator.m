@@ -140,9 +140,9 @@ static NSString* MODE_STRINGS[] = { @"", @"-- VISUAL --", @"-- VISUAL LINE --", 
             }
         }
         else {
-            [self.sourceView xvim_moveToLocation:_initialFromLocation];
-            [self.sourceView xvim_changeSelectionMode:_visual_mode];
-            [self.sourceView xvim_moveToLocation:_initialToLocation];
+//            [self.sourceView xvim_moveToLocation:_initialFromLocation];
+			[self.sourceView xvim_changeSelectionMode:_visual_mode];
+//            [self.sourceView xvim_moveToLocation:_initialToLocation];
         }
     }
     else {
